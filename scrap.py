@@ -3,27 +3,37 @@ from bs4 import BeautifulSoup
 
 
 baseUrl = 'https://www.helascaps.com/'
-uri = "/all-products"
+uriAllProducts = "/all-products"
 
-response = requests.get(baseUrl + uri)
 
-if response.ok:
-    swoup = BeautifulSoup(response.text, 'html.parser')
-    balises = swoup.findAll("article", {"class": "product"})
-    for balise in balises:
-        #print(balise)
-        titles = swoup.findAll("h3")
-        prices = swoup.findAll("div", {"class": "price"})
-        sizes = swoup.findAll("div", {"class": "add-to-cart-combination-item"})
-        for size in sizes:
-            if 'disabled' in size.get('class'):
-                size.extract()
-        '''
-            if not size.has_attr('disabled'):
-                print(size)
-        balise.extract
-        '''
 
+def swoup(url):
+    response = requests.get(url)
+    if response.ok:
+        return BeautifulSoup(response.text, 'html.parser')
+    return
+
+def getEndPoint(endpoint, tags):
+    return endpoint.findAll(tags)
+    
+def triTaillesDispos(objects):
+    for object in objects:
+        if 'disabled' in object.get('class'):
+            object.extract()
+    return objects
+
+endpoints = swoup(baseUrl + uriAllProducts)
+
+titles = []
+prices = []
+sizes = []
+
+articles = getEndPoint(endpoints, ("article", {"class": "product"}))
+for article in articles:
+    titles.append(getEndPoint(endpoints, "h3"))
+    prices.append(getEndPoint(endpoints, ("div", {"class": "price"})))
+    allSizes = getEndPoint(endpoints, ("div", {"class": "add-to-cart-combination-item"}))
+    sizes.append(triTaillesDispos(allSizes))
 
   
 
