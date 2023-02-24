@@ -1,29 +1,294 @@
-name,price,sizes
-MAHLICH PUFFER JACKET,300€,"['XS', 'S', 'M', 'L', 'XL']"
-LINK REVERSIBLE PUFFER BLACK / ORANGE,280€,"['XS', 'S', 'M', 'L', 'XL']"
-PROOF JACKET BLACK,220€,"['XS', 'S', 'M', 'L', 'XL']"
-DUROY JACKET BROWN,150€,"['XS', 'S', 'M', 'L', 'XL']"
-BALLER QUARTER ZIP GREEN / TAUPE,110€,"['XS', 'S', 'M', 'L', 'XL']"
-BALLER QUARTER ZIP NAVY / BLACK,110€,"['XS', 'S', 'M', 'L', 'XL']"
-BOMBER JACKET BLACK,220€,"['XS', 'S', 'M', 'L', 'XL']"
-SOURI FLEECE JACKET BEIGE,130€,"['XS', 'S', 'M', 'L', 'XL']"
-TRACK JACKET BLACK,110€,"['XS', 'S', 'M', 'L', 'XL']"
-PRIMO TRACKSUIT JACKET BLACK,125€,"['XS', 'S', 'M', 'L', 'XL']"
-TEDDY JACKET BROWN,130€,"['S', 'M', 'L', 'XL']"
-LOOP QUARTER ZIP JACKET TOFFEE,115€,"['XS', 'S', 'M', 'L', 'XL']"
-LOOP QUARTER ZIP JACKET GREEN,115€,"['XS', 'S', 'M', 'L', 'XL']"
-ONLY DENIM JACKET BEIGE,130€,"['XS', 'S', 'M', 'L', 'XL']"
-ONLY DENIM JACKET  GREY,130€,"['XS', 'S', 'M', 'L', 'XL']"
-SOL BLOCK DENIM JACKET BLUE,150€,"['XS', 'S', 'M', 'L', 'XL']"
-NAUTIQUE JACKET BLACK / LIGHT KHAKI,130€,"['XS', 'S', 'M', 'L', 'XL']"
-VITTO HOODED CHECKED JACKET BLACK,125€,"['XS', 'S', 'M', 'L', 'XL']"
-HIDING KANGURU JACKET NAVY,125€,"['XS', 'S', 'M', 'L', 'XL']"
-HIDING KANGURU JACKET BLACK,125€,"['XS', 'S', 'M', 'L', 'XL']"
-DUNE TRACKSUIT JACKET TERRACOTTA,115€,"['XS', 'S', 'M', 'L', 'XL']"
-DUNE TRACKSUIT JACKET BLACK,115€,"['XS', 'S', 'M', 'L', 'XL']"
-MOMENT WIND QUARTER ZIP GREEN,110€,"['XS', 'S', 'M', 'L', 'XL']"
-FAN JACKET BROWN/BEIGE/BROWN,200€,"['S', 'M', 'L', 'XL']"
-FAN JACKET BURG/NAVY/BLACK,200€,"['S', 'M', 'L', 'XL']"
-DELTA JACKET BROWN/GREEN,200€,"['S', 'M', 'L', 'XL']"
-DOGTAUR HOODIE BLACK,100€,"['XS', 'S', 'M', 'L', 'XL']"
-DOGTAUR HOODIE BEIGE,100€,"['XS', 'S', 'M', 'L', 'XL']"
+name,price,sizes,category
+MAHLICH PUFFER JACKET,300€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+LINK REVERSIBLE PUFFER BLACK / ORANGE,280€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+PROOF JACKET BLACK,220€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+DUROY JACKET BROWN,150€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+BALLER QUARTER ZIP GREEN / TAUPE,110€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+BALLER QUARTER ZIP NAVY / BLACK,110€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+BOMBER JACKET BLACK,220€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+SOURI FLEECE JACKET BEIGE,130€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+TRACK JACKET BLACK,110€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+PRIMO TRACKSUIT JACKET BLACK,125€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+TEDDY JACKET BROWN,130€,"['S', 'M', 'L', 'XL']",/all-products
+LOOP QUARTER ZIP JACKET TOFFEE,115€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+LOOP QUARTER ZIP JACKET GREEN,115€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+ONLY DENIM JACKET BEIGE,130€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+ONLY DENIM JACKET  GREY,130€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+SOL BLOCK DENIM JACKET BLUE,150€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+NAUTIQUE JACKET BLACK / LIGHT KHAKI,130€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+VITTO HOODED CHECKED JACKET BLACK,125€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+HIDING KANGURU JACKET NAVY,125€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+HIDING KANGURU JACKET BLACK,125€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+DUNE TRACKSUIT JACKET TERRACOTTA,115€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+DUNE TRACKSUIT JACKET BLACK,115€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+MOMENT WIND QUARTER ZIP GREEN,110€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+FAN JACKET BROWN/BEIGE/BROWN,200€,"['S', 'M', 'L', 'XL']",/all-products
+FAN JACKET BURG/NAVY/BLACK,200€,"['S', 'M', 'L', 'XL']",/all-products
+DELTA JACKET BROWN/GREEN,200€,"['S', 'M', 'L', 'XL']",/all-products
+DOGTAUR HOODIE BLACK,100€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+DOGTAUR HOODIE BEIGE,100€,"['XS', 'S', 'M', 'L', 'XL']",/all-products
+MAHLICH PUFFER JACKET,300€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+MAHLICH KNIT CREWNECK,110€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+DOGTAUR HOODIE BEIGE,100€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+DOGTAUR HOODIE BLACK,100€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+VINT QUARTER ZIP BEIGE,120€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+VINT QUARTER ZIP BLACK,120€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+ALLOVER HOODIE BEIGE,105€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+DUROY PANT BLACK,115€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+ALLOVER LS SHIRT LAVANDE,90€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+ALLOVER LS SHIRT BEIGE,90€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+ALLOVER PYJAMA PANT CLEAR BLUE,85€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+ALLOVER PYJAMA PANT BROWN,85€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+ONLY DENIM JACKET BEIGE,130€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+ONLY DENIM PANT BEIGE,110€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+ONLY DENIM JACKET  GREY,130€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+ONLY DENIM PANT GREY,110€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+RAYAS LS TEE WHITE,55€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+ONLY LS TEE PASTEL YELLOW,50€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+CLASSIC PIQUE TEE PASTEL YELLOW,45€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+CLASSIC PIQUE SHORT PASTEL YELLOW,60€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+LOOP QUARTER ZIP JACKET GREEN,115€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+LOOP SHORT GREEN,75€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+LOOP QUARTER ZIP JACKET TOFFEE,115€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+LOOP SHORT TOFFEE,75€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+MAHLICH LS TEE KHAKI,55€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+MAHLICH LS TEE BLACK,55€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+DOGTAUR TEE WHITE,40€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+DOGTAUR TEE COBALT,40€,"['XS', 'S', 'M', 'L', 'XL']",web-exclusive
+BIG STRIPE KNIT HOODIE BLACK / PASTEL GREEN,110€,"['XS', 'S', 'M', 'L', 'XL']",classic
+BIG STRIPE KNIT HOODIE WHITE / BLUE,110€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC QUARTER ZIP HEATHER GREY,90€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC QUARTER ZIP DARK GREY,90€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASS LS TEE LAVANDER,50€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC LS TEE WHITE,50€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC LS TEE BLACK,50€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC TEE WHITE,40€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC TEE OLIVE GREEN,40€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC TEE NAVY,40€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC TEE BLACK,40€,"['XS', 'S', 'M', 'L', 'XL']",classic
+PACK TEE BLACK,60€,"['S', 'M', 'L', 'XL']",classic
+PYJAMAX GREY,75€,"['XS', 'S', 'M', 'L', 'XL']",classic
+PYJAMAX BLACK / KHAKI,75€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC PIQUE TEE PASTEL YELLOW,45€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC PIQUE SHORT PASTEL YELLOW,60€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC PIQUE TEE BLACK,45€,"['XS', 'S', 'M', 'L', 'XL']",classic
+TOOTH SHIRT BLUE,75€,"['XS', 'S', 'M', 'L', 'XL']",classic
+TOOTH SHIRT PURPLE,75€,"['XS', 'S', 'M', 'L', 'XL']",classic
+SUPER SOFT QUARTER ZIP SAND,100€,"['XS', 'S', 'M', 'L', 'XL']",classic
+SUPER SOFT SHORT SAND,65€,"['XS', 'S', 'M', 'L', 'XL']",classic
+SUPER SOFT QUARTER ZIP BABY BLUE,100€,"['XS', 'S', 'M', 'L', 'XL']",classic
+SUPER SOFT SHORT BABY BLUE,65€,"['XS', 'S', 'M', 'L', 'XL']",classic
+FIELD LINEN SHORT PURPLE,75€,"['XS', 'S', 'M', 'L', 'XL']",classic
+CLASSIC CAP BEIGE,35€,['One size'],classic
+CLASSIC CAP DARK OLIVE GREEN,35€,['One size'],classic
+MAHLICH PUFFER JACKET,300€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+LINK REVERSIBLE PUFFER BLACK / ORANGE,280€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+PROOF JACKET BLACK,220€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+DUROY JACKET BROWN,150€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+BALLER QUARTER ZIP GREEN / TAUPE,110€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+BALLER QUARTER ZIP NAVY / BLACK,110€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+BOMBER JACKET BLACK,220€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+SOURI FLEECE JACKET BEIGE,130€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+TRACK JACKET BLACK,110€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+PRIMO TRACKSUIT JACKET BLACK,125€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+TEDDY JACKET BROWN,130€,"['S', 'M', 'L', 'XL']",jackets
+LOOP QUARTER ZIP JACKET TOFFEE,115€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+LOOP QUARTER ZIP JACKET GREEN,115€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+ONLY DENIM JACKET BEIGE,130€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+ONLY DENIM JACKET  GREY,130€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+SOL BLOCK DENIM JACKET BLUE,150€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+NAUTIQUE JACKET BLACK / LIGHT KHAKI,130€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+VITTO HOODED CHECKED JACKET BLACK,125€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+HIDING KANGURU JACKET NAVY,125€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+HIDING KANGURU JACKET BLACK,125€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+DUNE TRACKSUIT JACKET TERRACOTTA,115€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+DUNE TRACKSUIT JACKET BLACK,115€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+MOMENT WIND QUARTER ZIP GREEN,110€,"['XS', 'S', 'M', 'L', 'XL']",jackets
+FAN JACKET BROWN/BEIGE/BROWN,200€,"['S', 'M', 'L', 'XL']",jackets
+FAN JACKET BURG/NAVY/BLACK,200€,"['S', 'M', 'L', 'XL']",jackets
+DELTA JACKET BROWN/GREEN,200€,"['S', 'M', 'L', 'XL']",jackets
+DOGTAUR HOODIE BLACK,100€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+DOGTAUR HOODIE BEIGE,100€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+PLAID HOODIE BROWN,105€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+PLAID HOODIE BLACK,105€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+SEAMS CREWNECK KHAKI,95€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+SEAMS CREWNECK BLACK,95€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+RUN HOODIE GREY,105€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+RUN HOODIE BURGUNDY,105€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+CHAK HOODIE PURPLE,105€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+CHAK HOODIE BLACK,105€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+INZAG HOODIE GREY BLUE,105€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+INZAG HOODIE BEIGE,105€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+LUVU HOODIE LIGHT PINK,100€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+LUVU HOODIE BLACK,100€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+ULTIMO HOODIE BEIGE,100€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+BARZ CREWNECK TEAL BLUE,85€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+BARZ CREWNECK BLACK,85€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+DEGRADE HOODIE HEATHER GREY,100€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+DEGRADE HOODIE KHAKI GREEN,100€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+CLASSIC QUARTER ZIP HEATHER GREY,90€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+CLASSIC QUARTER ZIP DARK GREY,90€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+ALLOVER HOODIE BEIGE,105€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+BIG STRIPE KNIT HOODIE WHITE / BLUE,110€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+BIG STRIPE KNIT HOODIE BLACK / PASTEL GREEN,110€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+CLASS RELIEF CREWNECK PLUM,85€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+SUPER SOFT QUARTER ZIP SAND,100€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+SUPER SOFT QUARTER ZIP BABY BLUE,100€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+VINT QUARTER ZIP BEIGE,120€,"['XS', 'S', 'M', 'L', 'XL']",sweaters
+CLASSIC KNIT CREWNECK BURGUNDY,90€,"['XS', 'S', 'M', 'L', 'XL']",knits
+CLASSIC KNIT CREWNECK BLACK,90€,"['XS', 'S', 'M', 'L', 'XL']",knits
+BIG STRIPE KNIT HOODIE WHITE / BLUE,110€,"['XS', 'S', 'M', 'L', 'XL']",knits
+BIG STRIPE KNIT HOODIE BLACK / PASTEL GREEN,110€,"['XS', 'S', 'M', 'L', 'XL']",knits
+MAHLICH KNIT CREWNECK,110€,"['XS', 'S', 'M', 'L', 'XL']",knits
+POLO CLUB KNITTED CARDIGAN GREEN,100€,"['XS', 'S', 'M', 'L', 'XL']",knits
+POLO CLUB KNITTED CARDIGAN CAMEL,100€,"['XS', 'S', 'M', 'L', 'XL']",knits
+DUROY PANT BLACK,115€,"['XS', 'S', 'M', 'L', 'XL']",pants
+DOCKY CARGO PANT KHAKI,100€,"['XS', 'S', 'M', 'L', 'XL']",pants
+DOCKY CARGO PANT DARK GREY,100€,"['XS', 'S', 'M', 'L', 'XL']",pants
+PYJAMAX BLACK / KHAKI,75€,"['XS', 'S', 'M', 'L', 'XL']",pants
+ULTIMO SWEAT PANT BEIGE,90€,"['XS', 'S', 'M', 'L', 'XL']",pants
+ULTIMO SWEAT PANT BLACK,90€,"['XS', 'S', 'M', 'L', 'XL']",pants
+BOB UTILITY PANT BEIGE,115€,"['XS', 'S', 'M', 'L', 'XL']",pants
+LAP DENIM PANT BLUE,115€,"['XS', 'S', 'M', 'L', 'XL']",pants
+GOCAR SWEAT PANT GREEN,95€,"['XS', 'S', 'M', 'L', 'XL']",pants
+GOCAR SWEAT PANT BLACK,95€,"['XS', 'S', 'M', 'L', 'XL']",pants
+TRACK PANT BLACK,100€,"['XS', 'S', 'M', 'L', 'XL']",pants
+ALLOVER PYJAMA PANT BROWN,85€,"['XS', 'S', 'M', 'L', 'XL']",pants
+ALLOVER PYJAMA PANT CLEAR BLUE,85€,"['XS', 'S', 'M', 'L', 'XL']",pants
+LOU PANT BLACK,110€,"['S', 'M', 'L', 'XL']",pants
+PINCOT PANT GREY,105€,"['S', 'M', 'L', 'XL']",pants
+SOL SWEATPANT POUDRE,75€,"['S', 'M', 'L', 'XL']",pants
+LEGER PINCE PANT BEIGE,90€,"['XS', 'S', 'M', 'L', 'XL']",pants
+VITTO CARGO CHECKED PANT NAVY,95€,"['XS', 'S', 'M', 'L', 'XL']",pants
+PYJAMAX GREY,75€,"['XS', 'S', 'M', 'L', 'XL']",pants
+ONLY DENIM PANT BEIGE,110€,"['XS', 'S', 'M', 'L', 'XL']",pants
+ONLY DENIM PANT GREY,110€,"['XS', 'S', 'M', 'L', 'XL']",pants
+MARVIN PINCE PANT GREIGE,100€,"['XS', 'S', 'M', 'L', 'XL']",pants
+OV LS OVER SHIRT BLUE,110€,"['XS', 'S', 'M', 'L', 'XL']",shirts
+JOSHUA LS OVER SHIRT BLACK / GREY,110€,"['XS', 'S', 'M', 'L', 'XL']",shirts
+CAFE LS SHIRT BROWN,85€,"['XS', 'S', 'M', 'L', 'XL']",shirts
+BLU LS SHIRT BLUE,90€,"['XS', 'S', 'M', 'L', 'XL']",shirts
+ALLOVER LS SHIRT BEIGE,90€,"['XS', 'S', 'M', 'L', 'XL']",shirts
+ALLOVER LS SHIRT LAVANDE,90€,"['XS', 'S', 'M', 'L', 'XL']",shirts
+HCC HORSE PYJAMA SHIRT BEIGE,80€,"['S', 'M', 'L', 'XL']",shirts
+HCC HORSE PYJAMA SHIRT GREEN,80€,"['S', 'M', 'L', 'XL']",shirts
+ICARE SHIRT MULTICO,90€,"['XS', 'S', 'M', 'L', 'XL']",shirts
+HELLAS SHIRT MULTICO,90€,"['XS', 'S', 'M', 'L', 'XL']",shirts
+TOOTH SHIRT PURPLE,75€,"['XS', 'S', 'M', 'L', 'XL']",shirts
+TOOTH SHIRT BLUE,75€,"['XS', 'S', 'M', 'L', 'XL']",shirts
+MARVIN SHIRT GREIGE,70€,"['XS', 'S', 'M', 'L', 'XL']",shirts
+MAHLICH LS TEE KHAKI,55€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+MAHLICH LS TEE BLACK,55€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CLASSIC STRIPED LS TEE BLUE,55€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CLASSIC STRIPED LS TEE BLACK,55€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CLASS LS TEE PASTEL YELLOW,50€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CLASS LS TEE MINT GREEN,50€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+DOGTAUR TEE WHITE,40€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+DOGTAUR TEE COBALT,40€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+PLAID TEE WHITE,45€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+PLAID TEE BLACK,45€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+DISCO TEE HEATHER GREY,45€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+DISCO TEE BLACK,45€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CHAK TEE WHITE,45€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CHAK TEE NAVY,45€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+DEGRADE LS TEE BEIGE,55€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+DEGRADE LS TEE BURGUNDY,55€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+BAND LS TEE BEIGE / GREEN,55€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+BAND LS TEE NAVY / GREEN,55€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+BARZ TEE WHITE,45€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+BARZ TEE PURPLE,45€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+LUVU TEE BLUE,45€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+LUVU TEE BLACK,45€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CLINT TEE WHITE,50€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CLINT TEE BLACK,50€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CLASSIC TEE WHITE,40€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CLASSIC TEE BLACK,40€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CLASSIC TEE OLIVE GREEN,40€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+CLASSIC TEE NAVY,40€,"['XS', 'S', 'M', 'L', 'XL']",t-shirts
+RUGBY POLO BLACK,80€,"['XS', 'S', 'M', 'L', 'XL']",polos
+AL KNITTED POLO BLACK,95€,"['XS', 'S', 'M', 'L', 'XL']",polos
+ENGLAND WC22 FOOTBALL JERSEY,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+FRANCE WC22 FOOTBALL JERSEY,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+GERMANY WC22 FOOTBALL JERSEY,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+ALGERIA WC22 FOOTBALL JERSEY,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+BRAZIL WC22 FOOTBALL JERSEY,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+SPAIN WC22 FOOTBALL JERSEY,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+NETHERLAND WC22 FOOTBALL JERSEY,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+JAPAN WC22 FOOTBALL JERSEY,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+USA WC22 FOOTBALL JERSEY,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+BELGIUM WC22 FOOTBALL JERSEY,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+MAFIOSI POLO WHITE,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+TENDO JERSEY POLO BLUE,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+TENDO JERSEY POLO ORANGE,65€,"['XS', 'S', 'M', 'L', 'XL']",polos
+TRIO POLO GREEN/YELLOW/PINK,60€,"['S', 'M', 'L', 'XL']",polos
+TRIO POLO PURPLE/WHITE/BLUE,60€,"['S', 'M', 'L', 'XL']",polos
+MOSAIC JERSEY YELLOW,50€,"['S', 'M', 'L', 'XL']",polos
+CASCADE JERSEY ORANGE,65€,"['S', 'M', 'L', 'XL']",polos
+FLAMINGO L/S POLO,65€,"['S', 'M', 'L', 'XL']",polos
+CLASSIC PIQUE SHORT PASTEL YELLOW,60€,"['XS', 'S', 'M', 'L', 'XL']",shorts
+BELLO SHORT WHITE,75€,"['XS', 'S', 'M', 'L', 'XL']",shorts
+BELLO SHORT BLACK,75€,"['XS', 'S', 'M', 'L', 'XL']",shorts
+SUPER SOFT SHORT SAND,65€,"['XS', 'S', 'M', 'L', 'XL']",shorts
+SUPER SOFT SHORT BABY BLUE,65€,"['XS', 'S', 'M', 'L', 'XL']",shorts
+LOOP SHORT GREEN,75€,"['XS', 'S', 'M', 'L', 'XL']",shorts
+LOOP SHORT TOFFEE,75€,"['XS', 'S', 'M', 'L', 'XL']",shorts
+PINCE SHORTS BEIGE,75€,"['XS', 'S', 'M', 'L', 'XL']",shorts
+POKE DENIM SHORT BLUE,85€,"['XS', 'S', 'M', 'L', 'XL']",shorts
+FIELD LINEN SHORT PURPLE,75€,"['XS', 'S', 'M', 'L', 'XL']",shorts
+YOT SHORT PASTEL BLUE,50€,"['S', 'M', 'L', 'XL']",shorts
+COLDOUT BEANIE TOFFEE,30€,,beanies
+COLDOUT BEANIE BLACK,30€,,beanies
+DOCKY BEANIE KHAKI,35€,,beanies
+DOCKY BEANIE DARK GREY,35€,,beanies
+HELLO BEANIE GREY,40€,,beanies
+WOOLA BEANIE BROWN,35€,,beanies
+UMB BEANIE PURPLE,30€,['One size'],beanies
+UMB BEANIE BLACK,30€,['One size'],beanies
+PERU BEANIE BEIGE,40€,,beanies
+PERU BEANIE BLACK,40€,,beanies
+BALLOON BEANIE BEIGE,30€,,beanies
+BALLOON BEANIE BLACK,30€,,beanies
+FAN BEANIE ORANGE,35€,,beanies
+PARAPLUIE BEANIE RED,35€,,beanies
+TOURIST BEANIE GREY,30€,,beanies
+TOURIST BEANIE BLACK,30€,,beanies
+COLO BEANIE BLACK,40€,,beanies
+REP BEANIE ORANGE,35€,,beanies
+HELAS BEANIE GREEN / ORANGE,35€,,beanies
+HELAS SPORT BEANIE WHITE,35€,,beanies
+HOLA BUCKET BEIGE,40€,['One size'],hats
+HOLA BUCKET BLACK,40€,['One size'],hats
+DUROY CAP BROWN,40€,['One size'],hats
+DUROY CAP BLACK,40€,['One size'],hats
+BALLER CAP GREEN,40€,['One size'],hats
+BALLER CAP BLACK,40€,['One size'],hats
+BOB CAP BEIGE,40€,['One size'],hats
+DENIM CAP BLUE,40€,['One size'],hats
+BARZ CAP BLUE,35€,,hats
+BARZ CAP BLACK,35€,,hats
+ALLOVER CAP MINT,40€,,hats
+ALLOVER CAP BLACK,40€,,hats
+ULTIMO CAP BEIGE,40€,,hats
+FROU BUCKET TEAL GREEN,45€,,hats
+FROU BUCKET BORDEAUX,45€,,hats
+LOU CAP BLACK,40€,,hats
+FLAP CAP BLUE,35€,,hats
+OVER CAP BORDEAUX / BLACK,45€,,hats
+CLASSIC CAP BEIGE,35€,['One size'],hats
+CLASSIC CAP DARK OLIVE GREEN,35€,['One size'],hats
+NAUTIQUE BUCKET HAT BLACK / LIGHT KHAKI,40€,,hats
+BLU BUCKET HAT BLUE,40€,,hats
+CAVIAR BUCKET HAT GREEN,40€,,hats
+CLASSIC TRE CAP BLACK,40€,,hats
+ONLY CAP BEIGE,35€,,hats
+ONLY CAP GREY,35€,,hats
+MATCH BUCKET HAT BEIGE / BLACK,40€,,hats
+MATCH BUCKET HAT BLACK / GREEN,40€,,hats
+PARABOOT X HELAS MICHAEL/SPORT SUEDE BLACK,430€,"['38', '38.5', '39', '39.5', '40', '40.5', '41', '41.5', '42', '42.5', '43', '43.5', '44', '44.5', '45', '45.5']",accessories
+LIGHTA CHECKERED GOLD,25€,,accessories
+BOXER PACK X 3,50€,"['S', 'M', 'L', 'XL']",accessories
+10 STICKER PACK,15€,,accessories
+HELAS SOX WHITE,15€,"['M', 'L']",accessories
+ITALO DISCO MOCASSIN BLACK,110€,"['6 US', '6.5 US', '7 US', '7.5 US', '8 US', '8.5 US', '9 US', '9.5 US', '10 US', '10.5 US']",accessories
+ITALO DISCO MOCASSIN WHITE,110€,"['6 US', '6.5 US', '7 US', '7.5 US', '8 US', '8.5 US', '9 US', '9.5 US', '10 US', '10.5 US']",accessories
+MOCASSIN BROWN,90€,"['6 US', '6.5 US', '7 US', '7.5 US', '8 US', '8.5 US', '9 US', '9.5 US', '10 US', '10.5 US', '11 US', '11.5 US', '12 US']",accessories
