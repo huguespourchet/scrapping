@@ -25,6 +25,16 @@ class Scrapper:
             row[name] = link
             rows.append(row)
         Toolkit.Toolkit.fileWriter(name+'s.csv', field, rows )
+        
+    def getLinksFromOneElement(self, name):
+        rows = []
+        field = [name]
+        links = self.page.getMultipleElements(self.soup, 'a')
+        for link in links:
+            row = {}
+            row[name] = link.attrs['href']
+            rows.append(row)
+        Toolkit.Toolkit.fileWriter(name+'s.csv', field, rows )
 
     
     def getPage(self):
@@ -43,13 +53,13 @@ class Scrapper:
                 
     def execUris(self):
         self.soup = self.swoup(self.page.getUrl())
-        elem = self.page.getElement(self.soup, "div", ({'class': 'categories-list'}))
-        self.getLinks('a')
+        self.soup = self.page.getElement(self.soup, "div", ({'class': 'categories-list'}))
+        self.getLinksFromOneElement("uri")
         
     def getUri(self, tag, options):
         self.soup = self.swoup(self.page.getUrl())
         self.soup = self.page.getElement(self.soup, tag, options)
-        self.getLinks('a')
+        self.getLinksFromOneElement('a', )
         
         
     def getElements(self):

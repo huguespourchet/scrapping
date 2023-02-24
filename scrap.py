@@ -4,9 +4,9 @@ import Toolkit
 
 baseUrl = 'https://www.helascaps.com'
 
-# mainPage = PageWeb.PageWeb(baseUrl)
-# scrapperMain = Scrapper.Scrapper(mainPage)
-# scrapperMain.execUris()
+mainPage = PageWeb.PageWeb(baseUrl)
+scrapperMain = Scrapper.Scrapper(mainPage)
+scrapperMain.execUris()
 
 lignes = []
 for uri in Toolkit.Toolkit.fileReader('as.csv'):
