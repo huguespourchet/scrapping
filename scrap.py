@@ -9,8 +9,8 @@ scrapperMain = Scrapper.Scrapper(mainPage)
 scrapperMain.execUris()
 
 lignes = []
-for uri in Toolkit.Toolkit.fileReader('as.csv'):
-    page = PageWeb.PageWeb(baseUrl, uri['a'])
+for uri in Toolkit.Toolkit.fileReader('uris.csv'):
+    page = PageWeb.PageWeb(baseUrl, uri['uri'])
     scrapperArticles = Scrapper.Scrapper(page)
     lignes.extend(scrapperArticles.exec())
 fields = ['name', 'price', 'sizes', 'category']
